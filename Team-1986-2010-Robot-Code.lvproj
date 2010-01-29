@@ -175,6 +175,9 @@ KeepAliveTimeout 60
 				<Item Name="DriverStationEnhanced IO.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/DriverStation/Enhanced IO/DriverStationEnhanced IO.lvlib"/>
 				<Item Name="Set Output IO Info.vi" Type="VI" URL="/&lt;vilib&gt;/Robotics Library/WPI/DriverStation/Enhanced IO/Set Output IO Info.vi"/>
 				<Item Name="Get Output IO Info.vi" Type="VI" URL="/&lt;vilib&gt;/Robotics Library/WPI/DriverStation/Enhanced IO/Get Output IO Info.vi"/>
+				<Item Name="SPI.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/SPI/SPI.lvlib"/>
+				<Item Name="DigitalInput.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/DigitalInput/DigitalInput.lvlib"/>
+				<Item Name="DigitalOutput.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/DigitalOutput/DigitalOutput.lvlib"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -190,6 +193,9 @@ KeepAliveTimeout 60
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
 			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
 			<Item Name="_nirio_device_handleType.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirio_driverPrimitives.llb/_nirio_device_handleType.ctl"/>
+			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
+			<Item Name="nirio_WaitOnIRQ.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirio_HostInterface/nirio_WaitOnIRQ.vi"/>
 			<Item Name="nirio_ReadBig.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirio_HostInterface/nirio_ReadBig.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
