@@ -179,6 +179,7 @@ KeepAliveTimeout 60
 				<Item Name="DigitalInput.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/DigitalInput/DigitalInput.lvlib"/>
 				<Item Name="DigitalOutput.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/DigitalOutput/DigitalOutput.lvlib"/>
 				<Item Name="Solenoid.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/Solenoid/Solenoid.lvlib"/>
+				<Item Name="I2C.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/I2C/I2C.lvlib"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -189,6 +190,10 @@ KeepAliveTimeout 60
 			<Item Name="NiRioSrv.dll" Type="Document" URL="NiRioSrv.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="ADXL345 I2C Open.vi" Type="VI" URL="../ADXL345 I2C Open.vi"/>
+			<Item Name="ADXL345 I2C Range.ctl" Type="VI" URL="../ADXL345 I2C Range.ctl"/>
+			<Item Name="ADXL345 I2C Read.vi" Type="VI" URL="../ADXL345 I2C Read.vi"/>
+			<Item Name="ADXL345 I2C Axis.ctl" Type="VI" URL="../ADXL345 I2C Axis.ctl"/>
 			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
 			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
 			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
