@@ -180,6 +180,9 @@ KeepAliveTimeout 60
 				<Item Name="DigitalOutput.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/DigitalOutput/DigitalOutput.lvlib"/>
 				<Item Name="Solenoid.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/Solenoid/Solenoid.lvlib"/>
 				<Item Name="I2C.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/I2C/I2C.lvlib"/>
+				<Item Name="Compressor.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/Compressor/Compressor.lvlib"/>
+				<Item Name="Relay.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/Relay/Relay.lvlib"/>
+				<Item Name="DigitalInputFilter.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/DigitalInput/Filter/DigitalInputFilter.lvlib"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
