@@ -122,10 +122,10 @@ KeepAliveTimeout 60
 		<Item Name="Support Code" Type="Folder">
 			<Item Name="build tracking data.vi" Type="VI" URL="../build tracking data.vi"/>
 			<Item Name="Rotate To Target.vi" Type="VI" URL="../Rotate To Target.vi"/>
+			<Item Name="Rotate To Target Modified.vi" Type="VI" URL="../Rotate To Target Modified.vi"/>
 			<Item Name="Joystick Read.vi" Type="VI" URL="../Joystick Read.vi"/>
 		</Item>
 		<Item Name="Robot Main.vi" Type="VI" URL="../Robot Main.vi"/>
-		<Item Name="Rotate To Target Modified.vi" Type="VI" URL="../Rotate To Target Modified.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="NI_FPGA_Interface.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/NIFPGAInterface/NI_FPGA_Interface.lvlib"/>
@@ -198,15 +198,6 @@ KeepAliveTimeout 60
 			<Item Name="ADXL345 I2C Range.ctl" Type="VI" URL="../ADXL345 I2C Range.ctl"/>
 			<Item Name="ADXL345 I2C Read.vi" Type="VI" URL="../ADXL345 I2C Read.vi"/>
 			<Item Name="ADXL345 I2C Axis.ctl" Type="VI" URL="../ADXL345 I2C Axis.ctl"/>
-			<Item Name="niFpgaNodeNameForErrorReporting.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/interface/common/niFpgaNodeNameForErrorReporting.ctl"/>
-			<Item Name="niLvFpgaWhatHappensToTopLevelVI.ctl" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaWhatHappensToTopLevelVI.ctl"/>
-			<Item Name="niLvFpgaFormatErrorSource.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaFormatErrorSource.vi"/>
-			<Item Name="niLvFpgaAdjustHostInterfaceError.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaAdjustHostInterfaceError.vi"/>
-			<Item Name="_nirio_device_handleType.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirio_driverPrimitives.llb/_nirio_device_handleType.ctl"/>
-			<Item Name="nirio_ReadBig.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirio_HostInterface/nirio_ReadBig.vi"/>
-			<Item Name="niLvFpgaErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/rvi/errors/niLvFpgaErrorClusterFromErrorCode.vi"/>
-			<Item Name="nirviErrorClusterFromErrorCode.vi" Type="VI" URL="/&lt;vilib&gt;/RVI Host/nirviSupport.llb/nirviErrorClusterFromErrorCode.vi"/>
-			<Item Name="nirio_WaitOnIRQ.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Targets/FPGA/RIO/nirio_HostInterface/nirio_WaitOnIRQ.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
