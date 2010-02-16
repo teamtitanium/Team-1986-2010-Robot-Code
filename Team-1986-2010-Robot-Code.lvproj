@@ -196,8 +196,6 @@ KeepAliveTimeout 60
 			</Item>
 			<Item Name="ADXL345 I2C Open.vi" Type="VI" URL="../ADXL345 I2C Open.vi"/>
 			<Item Name="ADXL345 I2C Range.ctl" Type="VI" URL="../ADXL345 I2C Range.ctl"/>
-			<Item Name="ADXL345 I2C Read.vi" Type="VI" URL="../ADXL345 I2C Read.vi"/>
-			<Item Name="ADXL345 I2C Axis.ctl" Type="VI" URL="../ADXL345 I2C Axis.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="FRC Robot Boot-up Deployment" Type="{69A947D5-514E-4E75-818E-69657C0547D8}">
