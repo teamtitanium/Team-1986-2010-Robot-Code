@@ -98,7 +98,8 @@ KeepAliveTimeout 60
 		<Property Name="target.webservices.SecurityAPIKey" Type="Str">PqVr/ifkAQh+lVrdPIykXlFvg12GhhQFR8H9cUhphgg=:pTe9HRlQuMfJxAG6QCGq7UvoUpJzAzWGKy5SbZ+roSU=</Property>
 		<Property Name="target.webservices.ValidTimestampWindow" Type="Int">15</Property>
 		<Item Name="TypeDefs" Type="Folder">
-			<Item Name="Dashboard Datatype.ctl" Type="VI" URL="../Dashboard Datatype.ctl"/>
+			<Item Name="Dashboard Datatype Original.ctl" Type="VI" URL="../Dashboard Datatype Original.ctl"/>
+			<Item Name="Dashboard Datatype Modifiedl.ctl" Type="VI" URL="../Dashboard Datatype Modifiedl.ctl"/>
 			<Item Name="DashboardEnable.ctl" Type="VI" URL="../DashboardEnable.ctl"/>
 		</Item>
 		<Item Name="Team Code" Type="Folder">
