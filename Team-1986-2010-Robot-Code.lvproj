@@ -113,6 +113,8 @@ KeepAliveTimeout 60
 			<Item Name="Robot Global Data.vi" Type="VI" URL="../Robot Global Data.vi"/>
 			<Item Name="Build DashBoard Data.vi" Type="VI" URL="../Build DashBoard Data.vi"/>
 			<Item Name="Finish.vi" Type="VI" URL="../Finish.vi"/>
+			<Item Name="Kicker Reset.vi" Type="VI" URL="../Kicker Reset.vi"/>
+			<Item Name="Kick.vi" Type="VI" URL="../Kick.vi"/>
 		</Item>
 		<Item Name="Vision Support Code" Type="Folder">
 			<Item Name="Find Circular Target.vi" Type="VI" URL="../Find Circular Target.vi"/>
@@ -185,7 +187,6 @@ KeepAliveTimeout 60
 				<Item Name="Compressor.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/Compressor/Compressor.lvlib"/>
 				<Item Name="Relay.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/Relay/Relay.lvlib"/>
 				<Item Name="DigitalInputFilter.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/DigitalInput/Filter/DigitalInputFilter.lvlib"/>
-				<Item Name="DriverStationLCD.lvlib" Type="Library" URL="/&lt;vilib&gt;/Robotics Library/WPI/DriverStation/DriverStationLCD/DriverStationLCD.lvlib"/>
 			</Item>
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
